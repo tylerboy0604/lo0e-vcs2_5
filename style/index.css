@@ -450,3 +450,34 @@ ul li {
 article > section > img {
     max-width: 100%;
 }
+
+/* Badges */
+
+.badge {
+    display: inline-block;
+    border-radius: 1em;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    background-position: 0.5em center;
+    padding-left: 2em;
+    padding-right: 1em;
+    font-size: 0.8em;
+    vertical-align: middle;
+    font-weight: normal;
+    color: #000000;
+}
+
+.badge.branch {
+    background-color: #2ebaae;
+    background-image: url('../icons/git-branch.png');
+}
+
+.badge.merge {
+    background-color: khaki;
+    background-image: url('../icons/git-merge.png');
+}
+
+.badge.rebase {
+    background-color: orchid;
+    background-image: url('../icons/git-rebase.png');
+}
